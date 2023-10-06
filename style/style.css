@@ -1,0 +1,268 @@
+/* root start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+.body {
+    background: #E5E5E5;
+}
+
+:root {
+    --Roboto-Bold: 'Roboto-Bold';
+    --Roboto-Regular: 'Roboto-Regular';
+}
+
+/* root end */
+
+/* header start */
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.header__nav-logo-link {
+    width: 150px;
+    height: 71px;
+}
+
+.header__nav-list {
+    display: flex;
+    gap: 15px;
+}
+
+.header__nav-link {
+    color: #3A3838;
+    font-size: 18px;
+    line-height: 21px;
+    transition: 500ms;
+}
+
+.header__nav-link:hover {
+    color: #EF4423;
+}
+
+.header__content {
+    margin: 15px 0 36px 0;
+}
+
+/* header end */
+
+/* main start */
+
+.main__top {
+    display: flex;
+}
+
+.item-1 {
+    background: #B71C1C;
+    width: 100%;
+}
+
+.item-2 {
+    background: #6A1B9A;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.item-3 {
+    background: #303F9F;
+    width: 100%;
+
+}
+
+.item-4 {
+    background: #6A1B9A;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main__top-title {
+    width: 320px;
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+    width: 100%;
+    margin: 8px 15px;
+}
+
+.main__top-text {
+    width: 320px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #EBEBEB;
+    width: 100%;
+    margin: 8px 15px 15px 15px;
+}
+
+.main__top-title-2 {
+    width: 320px;
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin: 15px 15px 9px 15px;
+    width: 100%;
+}
+
+.main__top-text-2 {
+    width: 320px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #EBEBEB;
+    margin: 9px 15px 7px 15px;
+    width: 100%;
+}
+
+.main__top-title-3 {
+    width: 320px;
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin: 8px 15px 7px 15px;
+    width: 100%;
+}
+
+.main__top-text-3 {
+    width: 320px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #EBEBEB;
+    margin-left: 14px;
+    width: 100%;
+}
+
+.main__top-title-4 {
+    width: 320px;
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin: 15px 15px 9px 15px;
+    width: 100%;
+}
+
+.main__top-text-4 {
+    width: 320px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #EBEBEB;
+    margin: 9px 15px 7px 15px;
+    width: 100%;
+}
+
+.main__top-img-1 {
+    width: 100%;
+}
+
+.main__top-img-2 {
+    width: 100%;
+}
+
+.main__top-img-3 {
+    width: 100%;
+}
+
+.main__top-img-4 {
+    width: 100%;
+}
+
+.main__title {
+    font-size: 22px;
+    line-height: 26px;
+    color: #3A3838;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.main__content {
+    background: #EDEDED;
+    margin-bottom: 50px;
+}
+
+.main__content-jr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__content-title {
+    width: 540px;
+    font-size: 22px;
+    line-height: 26px;
+    color: #3A3838;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    font-family: var(--Roboto-Bold);
+}
+
+.main__content-text {
+    width: 540px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #686868;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+/* main end */
+
+/* footer start */
+.footer {
+    background: #3A3838;
+    height: 128px;
+    display: flex;
+    align-items: center;
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    background: #3A3838;
+}
+
+.footer__nav-logo-link {
+    width: 150px;
+    height: 71px;
+}
+
+.footer__nav-list {
+    display: flex;
+    gap: 15px;
+}
+
+.footer__nav-link {
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 21px;
+    transition: 500ms;
+}
+
+.footer__nav-link:hover {
+    color: #EF4423;
+}
+
+/* footer end */
